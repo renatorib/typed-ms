@@ -22,7 +22,7 @@ ms("2 hr", "30 min"); // -> 9000000
 ms("2 hours", "30 minutes"); // -> 9000000
 ms("2 hurs"); // Fail: type error!
 
-// From direct functions/aliases
+// From direct tokens/aliases functions
 ms.hours(2); // -> 7200000
 ms.hours(2) + ms.minutes(30); // -> 9000000
 ms.h(2) + ms.m(30); // -> 9000000
