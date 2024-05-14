@@ -1,0 +1,19 @@
+{
+  "name": "typed-ms",
+  "version": "0.1.0",
+  "description": "Typed MS",
+  "main": "dist/index.js",
+  "repository": "git@github.com:renatorib/typed-ms.git",
+  "author": "<hi@rena.to>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsup",
+    "prepublishOnly": "yarn build"
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ]
+}
