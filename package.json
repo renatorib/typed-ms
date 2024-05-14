@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "description": "Typed MS",
   "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "repository": "git@github.com:renatorib/typed-ms.git",
   "author": "<hi@rena.to>",
   "license": "MIT",
