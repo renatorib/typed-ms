@@ -6,8 +6,8 @@ const fns = {
   hours: mul(3600000),
   days: mul(86400000),
   weeks: mul(604800000),
-  months: mul(2629800000),
-  years: mul(31557600000),
+  months: mul(2592000000),
+  years: mul(31536000000),
 };
 
 const aliases = {

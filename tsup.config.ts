@@ -11,7 +11,6 @@ export default defineConfig([
     outDir: "dist",
     splitting: true,
     esbuildOptions: (options) => {
-      options.banner = { js: '"use client";' };
       options.chunkNames = "__chunks/[hash]";
     },
   },
